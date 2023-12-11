@@ -35,7 +35,7 @@ public class TestService {
         TestUser newUser = new TestUser();
         newUser.setUsername("Zubain");
         newUser.setEmail("Zubain.Pro@example.com");
-
+        log.info("TO make log injection warning " + entityManager.toString());
         TestUser newUserViaRepo = new TestUser();
         newUserViaRepo.setUsername("Jatin");
         newUserViaRepo.setEmail("Jatin.Pro@example.com");
