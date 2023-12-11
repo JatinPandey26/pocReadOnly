@@ -1,0 +1,15 @@
+server:
+  port: 9292
+
+spring:
+  datasource:
+    read:
+      url: jdbc:postgresql://localhost:5433/development-read
+      username: postgres
+      password: 1234
+      driver-class-name: org.postgresql.Driver
+    default:
+      url: jdbc:postgresql://localhost:5433/development-default
+      username: postgres
+      password: 1234
+      driver-class-name: org.postgresql.Driver
